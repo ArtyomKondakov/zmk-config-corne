@@ -174,20 +174,20 @@
         };
         combo_ha {                /* Щ + З -> Х */
               timeout-ms = <40>;
-              key-positions = <28 29>;
+              key-positions = <9 10>;
               bindings = <&kp LEFT_BRACKET>;
               layers = <0>;
         };
         
         combo_e {                 /* Д + Ж -> Э */
-              key-positions = <34 33>;
+              key-positions = <21 22>;
               bindings = <&kp APOSTROPHE>;
               layers = <0>;
         };
         
          combo_hardsign {          /* З + Ж -> Ъ */
               timeout-ms = <40>;
-              key-positions = <29 34>;
+              key-positions = <10 22>;
               bindings = <&kp RIGHT_BRACKET>;
               layers = <0>;
         };
